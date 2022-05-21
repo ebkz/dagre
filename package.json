@@ -1,7 +1,8 @@
 {
   "name": "@cresta/dagre-esm",
-  "version": "1.0.0",
-  "main": "index.js",
+  "version": "1.0.2",
+  "type": "module",
+  "module": "dist/dagre-esm.js",
   "license": "MIT",
   "type": "module",
   "scripts": {
@@ -10,7 +11,9 @@
   "dependencies": {
     "@rollup/plugin-commonjs": "^17.1.0",
     "@rollup/plugin-node-resolve": "^11.1.1",
-    "dagre": "^0.8.5",
     "rollup": "^2.38.1"
+  },
+  "devDependencies": {
+    "dagre": "^0.8.5"
   }
 }
