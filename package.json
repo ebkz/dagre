@@ -1,12 +1,15 @@
 {
   "name": "@cresta/dagre-esm",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "type": "module",
   "module": "dist/dagre-esm.js",
   "license": "MIT",
   "type": "module",
   "scripts": {
     "build": "rollup --config rollup.config.js"
+  },
+  "dependencies": {
+    "@types/cresta__dagre-esm": "npm:@types/dagre@^0.7.47"
   },
   "devDependencies": {
     "@rollup/plugin-commonjs": "^17.1.0",
