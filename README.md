@@ -1,5 +1,5 @@
-# dagre-esm
-ES Module version of [dagre](https://github.com/dagrejs/dagre)
+# dagre esm + cjs
+ES Module and CommonJS version of [dagre](https://github.com/dagrejs/dagre)
 
 ### Build
 ```
@@ -8,4 +8,6 @@ yarn run build
 npm run build
 ```
 
-The ES version of `dagre` is generated as `/dist/dagre-esm.js`.
+The ES version of `dagre` is generated as `/dist/dagre.esm.js`.
+The CJS version of `dagre` is generated as `/dist/dagre.cjs.js`.
+typescript tying is auto included when this package is imported 
