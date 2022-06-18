@@ -1,6 +1,10 @@
 {
-  "name": "@cresta/dagre",
+  "name": "dagre-esm",
   "version": "0.8.5",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ebkz/dagre-esm.git"
+  },
   "type": "module",
   "main": "dist/dagre.cjs.js",
   "module": "dist/dagre.esm.js",
@@ -16,5 +20,19 @@
     "@rollup/plugin-node-resolve": "^11.1.1",
     "dagre": "^0.8.5",
     "rollup": "^2.38.1"
+  },
+  "description": "ES Module and CommonJS version of [dagre](https://github.com/dagrejs/dagre)",
+  "bugs": {
+    "url": "https://github.com/ebkz/dagre-esm/issues"
+  },
+  "homepage": "https://github.com/ebkz/dagre-esm#readme",
+  "keywords": [
+    "dagre",
+    "graph",
+    "layout"
+  ],
+  "author": "Albert Zhang",
+  "publishConfig": {
+    "access": "public"
   }
 }
